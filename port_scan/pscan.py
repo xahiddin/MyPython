@@ -27,4 +27,4 @@ def th(from_, to_):
         pass
 
 
-th(3000, 3500)
+th(1, 1000)

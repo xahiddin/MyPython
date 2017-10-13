@@ -5,10 +5,11 @@ import urllib.request
 import urllib.error
 
 target = "http://anewme.cn"
-directory = '/themes/anewme/img'
+directory = '../'
 filters = [".jpg", ".png", ".gif", ".css", ".jpeg"]
 
 os.chdir(directory)
+
 
 w_path = queue.Queue()
 
@@ -29,7 +30,6 @@ def test_remote():
         try:
             response = urllib.request.urlopen(url)
             content = response.read()
-
             print("[%d]==>%s" % (response.code, path))
             response.close()
 

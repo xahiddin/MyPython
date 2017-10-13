@@ -25,20 +25,21 @@ class Object:
 
 # white circle
 def target():
+    global a
     global r
     global txt
     global tg_clock
-    if time.time() > tg_clock and len(TG) < 50:
+
+    if time.time() > tg_clock and len(TG) < 25:
         TG.append([random.randint(50, WIDTH - 50), 0])
         tg_clock = time.time() + random.random()
-        r = random.randint(0, len(herp) - 1)
-        txt = herp[r]
     for j, i in enumerate(TG):
         display.blit(obj.alma, i)
-        display.blit(alkatip.render(txt, True, (250, 250, 250)), (i[0] + 25, i[1] + 20))
+        display.blit(alkatip.render(herp[j], True, (250, 250, 250)), (i[0] + 25, i[1] + 20))
+
         if TG[j][1] > 580:
-            print("a")
-            TG.pop(j)
+            # TG.pop(j)
+            pass
         else:
             TG[j][1] += 1
 

@@ -1,12 +1,15 @@
 import re
-import urllib2
+import urllib.request
 from bs4 import BeautifulSoup
-import requests
-addr="http://www.ulinix.com"
-request=urllib2.Request(addr)
-response=urllib2.urlopen(request)
-html=response.read()
-soup=BeautifulSoup(html,'html.parser')
-img=soup.findAll('img')
-for i in range(len(img)):
-	print img[i].get('src')
+import re
+
+addr = "http://www.ulinix.com"
+request = urllib.request.urlopen(addr)
+html = request.read().decode("utf8")
+reg = re.compile(r'.*?<a href="(.*?)".*?')
+a = reg.match(html)
+if a:
+    a1 = reg.findall(html)
+    print(a1)
+else:
+    print("yoq ")

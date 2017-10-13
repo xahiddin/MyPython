@@ -1,9 +1,8 @@
 from bs4 import BeautifulSoup
-import urllib.request
-import re
 import requests
 from time import sleep
 import urllib.error
+
 
 def download(url):
     a = str(url).split(".")
@@ -13,7 +12,7 @@ def download(url):
     except requests.exceptions.ConnectionError:
         print('error')
     string = 'E:/z_user_Image/' + str(x) + '.' + a[2]
-    fp = open(string, 'wb')
+    fp = open(string, 'wb+')
     fp.write(pic.content)
     fp.close()
     print("downloaded", x)

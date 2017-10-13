@@ -16,7 +16,7 @@ def uname(n):
         sp = re.split('\\n', str(div))
         print(n, sp[1])
     except urllib.error.HTTPError as reason:
-        print(reason)
+        print(reason.code)
 
 
 if __name__ == "__main__":
