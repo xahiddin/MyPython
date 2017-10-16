@@ -32,8 +32,6 @@ def conn(f, host):
         else:
             print("toghra"+str(i))
             break
-
-
 host = 'http://www.anewme.cn/login/phone'
 f = open('1_6/0.txt')
 if __name__ == "__main__":
