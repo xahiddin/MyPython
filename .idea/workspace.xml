@@ -2,42 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bb8b4a1-11f9-449d-b165-d2c12d363b80" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/English/back.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/English/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/English/wrong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/English/english.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GaoJi/click.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GaoJi/mouse_point.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GaoJi/press.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baopo/zip.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SavePic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/StringDict.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/baopo/Message/M.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/baopo/Message/MessageLogin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/game.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sushu.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DanYuan.py" afterPath="$PROJECT_DIR$/other/DanYuan.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/check_list.py" afterPath="$PROJECT_DIR$/other/check_list.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dict.py" afterPath="$PROJECT_DIR$/other/dict.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/findall.py" afterPath="$PROJECT_DIR$/other/findall.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fo.py" afterPath="$PROJECT_DIR$/other/fo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/formati.py" afterPath="$PROJECT_DIR$/GaoJi/a.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gui.py" afterPath="$PROJECT_DIR$/other/gui.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lz77.py" afterPath="$PROJECT_DIR$/other/lz77.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/multi_process.py" afterPath="$PROJECT_DIR$/other/multi_process.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pachong.py" afterPath="$PROJECT_DIR$/other/pachong.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/paixu.py" afterPath="$PROJECT_DIR$/other/paixu.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pymy.py" afterPath="$PROJECT_DIR$/other/pymy.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sock.py" afterPath="$PROJECT_DIR$/other/sock.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/th.py" afterPath="$PROJECT_DIR$/other/th.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/touple.py" afterPath="$PROJECT_DIR$/other/touple.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xiancheng.py" afterPath="$PROJECT_DIR$/other/xiancheng.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/正.py" afterPath="$PROJECT_DIR$/other/正.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/English/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/English/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DaZi/jiami.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tk/Game" afterPath="$PROJECT_DIR$/tk/Game" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tk/python-tkinter-minesweeper" afterPath="$PROJECT_DIR$/tk/python-tkinter-minesweeper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baopo/Message/Message.py" afterPath="$PROJECT_DIR$/baopo/Message/Message.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/English/english.py" afterPath="$PROJECT_DIR$/English/english.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,6 +20,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python$Emel.coverage" NAME="Emel Coverage Results" MODIFIED="1505870484518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calculator" />
     <SUITE FILE_PATH="coverage/python$dict.coverage" NAME="dict Coverage Results" MODIFIED="1507883025396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$jiami.coverage" NAME="jiami Coverage Results" MODIFIED="1508226033342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DaZi" />
     <SUITE FILE_PATH="coverage/python$multi_process.coverage" NAME="multi_process Coverage Results" MODIFIED="1505961481165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$Message.coverage" NAME="Message Coverage Results" MODIFIED="1506602729105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baopo" />
     <SUITE FILE_PATH="coverage/python$Message1.coverage" NAME="Message1 Coverage Results" MODIFIED="1506613877713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baopo" />
@@ -63,7 +35,7 @@
     <SUITE FILE_PATH="coverage/python$paixu.coverage" NAME="paixu Coverage Results" MODIFIED="1508132637986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/other" />
     <SUITE FILE_PATH="coverage/python$english.coverage" NAME="english Coverage Results" MODIFIED="1508156145567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$findall.coverage" NAME="findall Coverage Results" MODIFIED="1506937280028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$english__1_.coverage" NAME="english (1) Coverage Results" MODIFIED="1508179389805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/English" />
+    <SUITE FILE_PATH="coverage/python$english__1_.coverage" NAME="english (1) Coverage Results" MODIFIED="1508258607882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/English" />
     <SUITE FILE_PATH="coverage/python$pscan.coverage" NAME="pscan Coverage Results" MODIFIED="1506617415372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/port_scan" />
     <SUITE FILE_PATH="coverage/python$sushu.coverage" NAME="sushu Coverage Results" MODIFIED="1505790444181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$th.coverage" NAME="th Coverage Results" MODIFIED="1507883278867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -124,16 +96,19 @@
       <file leaf-file-name="english.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/English/english.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="42">
+              <caret line="70" column="30" lean-forward="true" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
               <folding>
                 <element signature="e#25#46#0" expanded="true" />
-                <marker date="1508179387449" expanded="true" signature="693:730" ph="select `en` vocabulary" />
-                <marker date="1508179387449" expanded="true" signature="693:732" ph="select `en` vocabulary" />
-                <marker date="1508179387449" expanded="true" signature="854:881" ph="select `uy` vocabulary" />
-                <marker date="1508179387449" expanded="true" signature="1312:1350" ph="select `id` vocabulary" />
-                <marker date="1508179387449" expanded="true" signature="1312:1352" ph="select `id` vocabulary" />
-                <marker date="1508179387449" expanded="true" signature="1312:1353" ph="select `id` vocabulary" />
+                <marker date="1508258606181" expanded="true" signature="770:807" ph="select `en` vocabulary" />
+                <marker date="1508258606181" expanded="true" signature="770:809" ph="select `en` vocabulary" />
+                <marker date="1508258606181" expanded="true" signature="945:983" ph="select `en` vocabulary" />
+                <marker date="1508258606181" expanded="true" signature="945:984" ph="select `en` vocabulary" />
+                <marker date="1508258606181" expanded="true" signature="945:986" ph="select `en` vocabulary" />
+                <marker date="1508258606181" expanded="true" signature="1126:1153" ph="select `uy` vocabulary" />
+                <marker date="1508258606181" expanded="true" signature="2015:2053" ph="select `id` vocabulary" />
+                <marker date="1508258606181" expanded="true" signature="2015:2055" ph="select `id` vocabulary" />
+                <marker date="1508258606181" expanded="true" signature="2015:2056" ph="select `id` vocabulary" />
               </folding>
             </state>
           </provider>
@@ -150,8 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>button</find>
-      <find>request</find>
       <find>be</find>
       <find>varClass</find>
       <find>class_</find>
@@ -180,9 +153,12 @@
       <find>panes</find>
       <find>command</find>
       <find>get</find>
+      <find>row=1</find>
+      <find>next</find>
     </findStrings>
     <replaceStrings>
       <replace>apple</replace>
+      <replace>row=2</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -191,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baopo/dict" />
         <option value="$PROJECT_DIR$/crazy.py" />
         <option value="$PROJECT_DIR$/pachong.py" />
         <option value="$PROJECT_DIR$/tk/Game/StarWars2/space.py" />
@@ -241,6 +216,7 @@
         <option value="$PROJECT_DIR$/other/SavePic.py" />
         <option value="$PROJECT_DIR$/other/StringDict.py" />
         <option value="$PROJECT_DIR$/english.py" />
+        <option value="$PROJECT_DIR$/DaZi/jiami.py" />
         <option value="$PROJECT_DIR$/English/english.py" />
       </list>
     </option>
@@ -272,7 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -296,26 +271,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PaChong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="English" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,13 +287,6 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\root\Documents\Code\python\English" />
-      <recent name="C:\Users\root\Documents\Code\python" />
-      <recent name="C:\Users\root\Documents\Code\python\baopo\Message" />
-      <recent name="C:\Users\root\Documents\Code\python\baopo" />
-      <recent name="C:\Users\root\Documents\Code\python\DaZi" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\root\Documents\Code\python\English" />
       <recent name="C:\Users\root\Documents\Code\python\other" />
@@ -339,26 +294,15 @@
       <recent name="C:\Users\root\Documents\Code\python\PaChong" />
       <recent name="C:\Users\root\Documents\Code\python\baopo\Message" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\root\Documents\Code\python\English" />
+      <recent name="C:\Users\root\Documents\Code\python" />
+      <recent name="C:\Users\root\Documents\Code\python\baopo\Message" />
+      <recent name="C:\Users\root\Documents\Code\python\baopo" />
+      <recent name="C:\Users\root\Documents\Code\python\DaZi" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.english (1)">
-    <configuration default="false" name="paixu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/paixu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="touple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,6 +371,24 @@
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/English/english.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="jiami" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DaZi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DaZi/jiami.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -646,19 +608,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.paixu" />
-      <item index="1" class="java.lang.String" itemvalue="Python.touple" />
-      <item index="2" class="java.lang.String" itemvalue="Python.minesweeper" />
-      <item index="3" class="java.lang.String" itemvalue="Python.english" />
-      <item index="4" class="java.lang.String" itemvalue="Python.english (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.touple" />
+      <item index="1" class="java.lang.String" itemvalue="Python.minesweeper" />
+      <item index="2" class="java.lang.String" itemvalue="Python.english" />
+      <item index="3" class="java.lang.String" itemvalue="Python.english (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.jiami" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.english (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.english" />
-        <item index="2" class="java.lang.String" itemvalue="Python.minesweeper" />
-        <item index="3" class="java.lang.String" itemvalue="Python.touple" />
-        <item index="4" class="java.lang.String" itemvalue="Python.paixu" />
+        <item index="1" class="java.lang.String" itemvalue="Python.jiami" />
+        <item index="2" class="java.lang.String" itemvalue="Python.english" />
+        <item index="3" class="java.lang.String" itemvalue="Python.minesweeper" />
+        <item index="4" class="java.lang.String" itemvalue="Python.touple" />
       </list>
     </recent_temporary>
   </component>
@@ -696,10 +658,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21331316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32478634" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -718,6 +680,26 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32478634" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32478634" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21331316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3846154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -739,22 +721,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DaZi/freak.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PaChong/test.py" />
-    <entry file="file://$PROJECT_DIR$/DaZi/geek.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/th1.py" />
     <entry file="file://$PROJECT_DIR$/PaChong/GetUserImage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -806,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="221" column="6" lean-forward="false" selection-start-line="221" selection-start-column="6" selection-end-line="221" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,9 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4397">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#23#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,25 +850,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/formati.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/other/formati.py" />
     <entry file="file://$PROJECT_DIR$/other/gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,39 +886,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/SavePic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/other/SavePic.py" />
     <entry file="file://$PROJECT_DIR$/other/sock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/StringDict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="53" lean-forward="false" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/other/StringDict.py" />
     <entry file="file://$PROJECT_DIR$/other/xiancheng.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,23 +923,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-33">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/game/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/game/game.py" />
     <entry file="file://$PROJECT_DIR$/tk/python-tkinter-minesweeper/images/tile_1.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1033,15 +942,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4650">
           <caret line="192" column="4" lean-forward="true" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/English/th.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/English/th.jpg" />
     <entry file="file://$PROJECT_DIR$/English/back.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1051,39 +955,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="25" />
-          <folding>
-            <element signature="e#15#37#0" expanded="true" />
-            <marker date="1506320441043" expanded="true" signature="555:635" ph="insert into social... " />
-            <marker date="1506320441043" expanded="true" signature="832:875" ph="delete from " />
-            <marker date="1506320441043" expanded="true" signature="969:1128" ph="create table... social" />
-            <marker date="1506320441043" expanded="true" signature="1144:1164" ph="select * fro... social" />
-            <marker date="1506320441043" expanded="true" signature="1177:1226" ph="insert into social... " />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DaZi/jiami.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PaChong/crazy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="111" column="21" lean-forward="false" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="21" />
-          <folding>
-            <element signature="e#23#32#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="113">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/English/right.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="257" column="8" lean-forward="false" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/English/next.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/English/english.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="42">
+          <caret line="70" column="30" lean-forward="true" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
           <folding>
             <element signature="e#25#46#0" expanded="true" />
-            <marker date="1508179387449" expanded="true" signature="693:730" ph="select `en` vocabulary" />
-            <marker date="1508179387449" expanded="true" signature="693:732" ph="select `en` vocabulary" />
-            <marker date="1508179387449" expanded="true" signature="854:881" ph="select `uy` vocabulary" />
-            <marker date="1508179387449" expanded="true" signature="1312:1350" ph="select `id` vocabulary" />
-            <marker date="1508179387449" expanded="true" signature="1312:1352" ph="select `id` vocabulary" />
-            <marker date="1508179387449" expanded="true" signature="1312:1353" ph="select `id` vocabulary" />
+            <marker date="1508258606181" expanded="true" signature="770:807" ph="select `en` vocabulary" />
+            <marker date="1508258606181" expanded="true" signature="770:809" ph="select `en` vocabulary" />
+            <marker date="1508258606181" expanded="true" signature="945:983" ph="select `en` vocabulary" />
+            <marker date="1508258606181" expanded="true" signature="945:984" ph="select `en` vocabulary" />
+            <marker date="1508258606181" expanded="true" signature="945:986" ph="select `en` vocabulary" />
+            <marker date="1508258606181" expanded="true" signature="1126:1153" ph="select `uy` vocabulary" />
+            <marker date="1508258606181" expanded="true" signature="2015:2053" ph="select `id` vocabulary" />
+            <marker date="1508258606181" expanded="true" signature="2015:2055" ph="select `id` vocabulary" />
+            <marker date="1508258606181" expanded="true" signature="2015:2056" ph="select `id` vocabulary" />
           </folding>
         </state>
       </provider>

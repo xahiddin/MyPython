@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from tkinter import *
-import tkinter
+import tkinter.font as tkFont
 from PIL import ImageTk, Image
 import pymysql.cursors
 import random
@@ -11,7 +11,8 @@ cursor = con.cursor()
 
 app = Tk()
 app.title("Welcome")
-image = Image.open('back.jpg')
+app.resizable(width=False, height=False)
+image = Image.open('bg.jpg')
 background_image = ImageTk.PhotoImage(image)
 w = background_image.width()
 h = background_image.height()
@@ -22,16 +23,24 @@ b1 = StringVar()
 b2 = StringVar()
 b3 = StringVar()
 b4 = StringVar()
+b5 = StringVar()
 
 background_label = Label(app, image=background_image)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
 
-def get_en(id):
+def get_en_by_id(id):
     sql_en = "select `en` from vocabulary where id=%d" % id
     cursor.execute(sql_en)
     result_en = cursor.fetchone()
     return result_en[0]
+
+
+def get_en_by_uy(cn):
+    sql_en_by_cn = "select `en` from vocabulary where uy='%s'" % cn
+    cursor.execute(sql_en_by_cn)
+    result_en_by_cn = cursor.fetchone()
+    return result_en_by_cn[0]
 
 
 def get_uy():
@@ -41,38 +50,73 @@ def get_uy():
     return result_uy
 
 
-panes = PanedWindow(app, orient=HORIZONTAL)
-
-b1.set(get_uy()[random.randint(0, len(get_uy()) - 1)][0])
-b2.set(get_uy()[random.randint(0, len(get_uy()) - 1)][0])
-b3.set(get_uy()[random.randint(0, len(get_uy()) - 1)][0])
-b4.set(get_uy()[random.randint(0, len(get_uy()) - 1)][0])
-l.set(get_en(random.randint(1, 4), ))
+def random_getuy():
+    n = random.randint(0, len(get_uy()) - 1)
+    return get_uy()[n][0]
 
 
-def click(b):
+def settext():
+    b1.set(random_getuy())
+    b2.set(random_getuy())
+    if b1.get() == b2.get():
+        b2.set(random_getuy())
+    b3.set(random_getuy())
+    if b2.get() == b3.get() or b1.get() == b3.get():
+        b3.set(random_getuy())
+    b4.set(random_getuy())
+    if b2.get() == b4.get() or b3.get() == b4.get() or b1.get() == b4.get():
+        b4.set(random_getuy())
+    b5.set(random_getuy())
+    if b4.get() == b5.get() or b3.get() == b5.get() or b2.get() == b5.get() or b1.get() == b5.get():
+        b5.set(random_getuy())
+
+    btns = [b1, b2, b3, b4, b5]
+    ltext = get_en_by_uy(random.choice(btns).get())
+    l.set(ltext)
+
+
+settext()
+
+
+def click(b, btn):
     sql_id = "select `id` from vocabulary where uy='%s'" % b.get()
     cursor.execute(sql_id)
     result_id = cursor.fetchone()
-    result = get_en(result_id)
+    result = get_en_by_id(result_id)
     if result == l.get():
-        print("right")
+        btn['bg'] = 'blue'
+    else:
+        btn['bg'] = 'red'
 
-photo = tkinter.PhotoImage(file='wrong.png')
-frm1 = Frame(panes)
-frm2 = Frame(panes)
-label = Label(frm1, text=l.get(), compound='center', bg='white').pack()
 
-btn1 = Button(frm2, text=b1.get(), compound='center', command=lambda: click(b1), bg='white', image=photo).grid(row=1,
-                                                                                                               column=1)
-btn2 = Button(frm2, text=b2.get(), compound='center', command=lambda: click(b2), bg='white', image=photo).grid(row=1,
-                                                                                                               column=2)
-btn3 = Button(frm2, text=b3.get(), compound='center', command=lambda: click(b3), bg='white', image=photo).grid(row=1,
-                                                                                                               column=3)
-btn4 = Button(frm2, text=b4.get(), compound='center', command=lambda: click(b4), bg='white', image=photo).grid(row=1,
-                                                                                                               column=4)
+def refresh():
+    settext()
 
-frm1.pack()
-frm2.pack()
-panes.pack()
+
+ft = tkFont.Font(family='alkatip kofi', size=15, weight=tkFont.BOLD)
+
+label = Label(app, text=l.get(), font=ft, compound='center', bg='white').grid(row=1, column=3)
+
+btn1 = Button(app, text=b1.get(), width=6, height=2, font=ft, compound='center', command=lambda: click(b1, btn1),
+              bg='white', padx=3)
+btn2 = Button(app, text=b2.get(), width=6, height=2, font=ft, compound='center', image=None,
+              command=lambda: click(b2, btn2),
+              bg='white', padx=3)
+
+btn3 = Button(app, text=b3.get(), width=6, height=2, font=ft, compound='center', image=None,
+              command=lambda: click(b3, btn3),
+              bg='white', padx=3)
+
+btn4 = Button(app, text=b4.get(), width=6, height=2, font=ft, compound='center', command=lambda: click(b4, btn4),
+              bg='white', padx=3)
+
+btn5 = Button(app, text=b5.get(), width=6, height=2, font=ft, compound='center', command=lambda: click(b4, btn5),
+              bg='white', padx=3)
+
+btn1.grid(row=5, column=1)
+btn2.grid(row=5, column=2)
+btn3.grid(row=5, column=3)
+btn4.grid(row=5, column=4)
+btn5.grid(row=5, column=5)
+
 app.mainloop()
